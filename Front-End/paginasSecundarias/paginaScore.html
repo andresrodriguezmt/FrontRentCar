@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title > Reto 5</title>
+
+        <meta http-equiv="Acces-Control-Allow-Origin" content="*">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        
+        <script type="text/javascript" src="/Reto5/funcionesJS/funcionReservation.js"></script>
+        <script type="text/javascript" src="/Reto5/funcionesJS/funcionScore.js"></script>
+        
+
+        <link rel="stylesheet" type ="text/css" href="/Reto5/estiloPrincipal.css"> 
+        <link rel="stylesheet" type ="text/css" href="/Reto5/estilosCSS/estilosScore.css">
+
+
+    </head>
+
+    <body>
+        
+            <div id="cabeza">
+                <p id="cabecera"> TIENDA RENT A CAR </p>
+            </div>
+
+            <div id="menu">
+
+                
+                    <li><a href="/Reto5/paginaPrincipal.html">Principal</a></li>
+                    <li><a href="paginaGama.html">Gama</a></li>
+                    <li><a href="paginaCar.html">Car</a></li> 
+                    <li><a href="paginaClient.html">Client</a> </li> 
+                    <li><a href="paginaMessage.html">Message</a></li> 
+                    <li><a href="paginaReservation.html">Reservation</a></li>
+                    <li><a href="paginaScore.html">Score</a></li>
+                    <li><a href="paginaAdmin.html">Admin</a></li>
+                    <li><a href="paginaReportes.html">Reportes</a></li>
+                    
+                </ul>
+            </div>
+
+
+            
+                <div id="izquierda">
+                    
+                    <br>
+                    <br>
+
+                    <h1 id="titulo"> Score </h1>
+                    
+                    <script>
+                        window.onload = obtenerRegistrosReservation()
+                    </script>
+
+                    <br>
+                    
+        
+                    <p class="nombresFormulario">Mensaje Calificación : </p>
+
+                    
+
+                        <input type="text" id="messageTextScore" placeholder="ej : logan">
+
+                    <br> 
+                    <br>   
+
+                    <p class="nombresFormulario" >Calificación: </p>
+                    
+                    
+                    
+                    <input type="text" id="stars" placeholder="ej : 5">
+        
+                    <br>
+                    <br>
+                    
+                    <p class="nombresFormulario" >Seleccionar Reserva: </p>
+
+                    <select id="seleccionarReserva"></select>
+
+                    <br>
+                    <br>
+                    <span id="textPost" >Botón Insertar : </span>
+                    <span id="textGet" >Botón Obtener : </span>
+
+                    <br>
+                    <br>
+                    <button id="botonPost"
+                        onclick="insertarRegistroScore()">POST
+                    </button>
+                    
+                    
+                    
+                    <button id ="botonGet"
+                        onclick = "obtenerRegistrosScore() ">GET
+                    </button> 
+
+                </div>
+                <div id="derecha">
+
+                    <br>
+                    <br>
+                    <br>
+        
+        
+                    <div >
+                        <table>
+                            <thead>
+                                <tr>
+                        
+                                    <td> &nbsp; MESSAGETEXT &nbsp; </td>
+                                    <td> &nbsp; STARS &nbsp; </td> 
+                                    <td> &nbsp; STARTDATE &nbsp; </td>
+                                    <td> &nbsp; DEVOLUTIONDATE &nbsp; </td> 
+                                    
+                                    <td> &nbsp; ACTUALIZAR &nbsp; </td>
+                                    <td> &nbsp; ELIMINAR &nbsp; </td>
+                                </tr>
+                            </thead>
+                            <tbody id="registrosScore">
+                                   
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="pieDePagina">
+
+                
+                    <br>
+                    
+                    <p align="center" class="textoPie"> Edad : 18 años</p>
+                    <p align="center" class="textoPie"> Nacionalidad : Colombia</p>
+                    <p align="center" class="textoPie"> Creador : Andres Felipe Rodriguez Ramirez</p>
+                    <br>
+    
+                    <div id="link1">
+                        <a class="link" href="https://www.facebook.com/andresfelipe.rodriguezramirez.1/"><img class="footer" src="http://seu.unsl.edu.ar/application/assets/iconos/redes-sociales/logofb.png" 
+                                                  width="60" 
+                                                  height="60"
+                                                  ></a>
+                        <a class="link" href="https://instagram.com/afrr_54/"><img class="footer" src="https://fameable.com/wp-content/uploads/buy-instagram-followers.png" 
+                                                  width="60" 
+                                                  height="60"
+                                                  ></a> 
+                        <a class="link" href="https://twitter.com/Andrewv___"><img class="footer" src="https://pngimg.com/uploads/twitter/twitter_PNG15.png" 
+                                                    width="70" 
+                                                    height="60"
+                                                    ></a>                                                                                       
+                        <br>
+                    
+                
+            </div>
+
+        
+    </body>
+</html>

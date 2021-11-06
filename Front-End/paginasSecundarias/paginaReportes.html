@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title > Reto 5</title>
+
+        <meta http-equiv="Acces-Control-Allow-Origin" content="*">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script type="text/javascript" src="/Reto5/funcionesJS/funcionReportes.js"></script>
+        <script type="text/javascript" src="/Reto5/funcionesJS/funcionReservation.js"></script>
+
+        <link rel="stylesheet" type ="text/css" href="/Reto5/estiloPrincipal.css"> 
+        <link rel="stylesheet" type ="text/css" href="/Reto5/estilosCSS/estilosReportes.css">
+
+        
+
+    </head>
+
+    <body>
+        
+            <div id="cabeza">
+                <p id="cabecera"> TIENDA RENT A CAR </p>
+            </div>
+
+            <div id="menu">
+
+                
+                    <li><a href="/Reto5/paginaPrincipal.html">Principal</a></li>
+                    <li><a href="paginaGama.html">Gama</a></li>
+                    <li><a href="paginaCar.html">Car</a></li> 
+                    <li><a href="paginaClient.html">Client</a> </li> 
+                    <li><a href="paginaMessage.html">Message</a></li> 
+                    <li><a href="paginaReservation.html">Reservation</a></li>
+                    <li><a href="paginaScore.html">Score</a></li>
+                    <li><a href="paginaAdmin.html">Admin</a></li>
+                    <li><a href="paginaReportes.html">Reportes</a></li>
+                    
+                    
+                </ul>
+            </div>
+
+
+            
+                <div id="izquierda">
+                    
+                    <br>
+                    <br>
+
+                    <h1 id="titulo"> Reportes </h1>
+                    
+                    <br>
+                    <br>
+                    
+                    <button id ="botonStatus"
+                            onclick="obtenerReporteStatus()"> Generar Reporte Status Reservas </button>
+                    
+                    <br>
+                    <br>
+                    
+                    <p class="nombresFormulario">Fecha inicio Reserva : </p>
+
+                    
+
+                        <input type="date" id="startDate" placeholder="ej : 2020-12-20 ">
+
+                    <br> 
+                    <br>   
+
+                    <p class="nombresFormulario" >Fecha devolución Reserva : </p>
+                    
+                    
+                    
+                    <input type="date" id="devolutionDate" placeholder="ej : 2020-12-20">
+
+                    <br> 
+                    <br> 
+                    <button id="botonDate"
+                            onclick="obtenerReporteDate()"> Generar Reporte Status por Fecha </button> 
+                    
+                    <br>
+                    <br>
+
+                    <button id="botonClientes"
+                            onclick="obtenerReporteClientes()"> Generar Reporte Clientes y Cantidad de reservas por clientes </button>
+                </div>
+                <div id="derecha">
+
+                    <br>
+                    <br>
+                    <br>
+        
+        
+                    <div >
+                        <table id="tablaStatus">
+                            <thead>
+                                <tr>
+                                    <td> &nbsp; COMPLETADOS &nbsp; </td>
+                                    <td> &nbsp; CANCELADOS &nbsp; </td>
+                                </tr>
+                            </thead>
+                            <tbody id="registrosStatus">
+                                      
+
+                            </tbody>
+
+                        </table>
+                    </div>
+
+
+                    <div>
+                        <table id="tablaFechas">
+                            <thead>
+                                <tr>
+                                    <td> &nbsp; FECHA INICIO &nbsp; </td>
+                                    <td> &nbsp; FECHA DEVOLUCIÓN &nbsp; </td>
+                                    <td> &nbsp; ESTADO &nbsp; </td>
+                                </tr>
+                            </thead>
+                            <tbody id="registrosFechas">
+                                   
+
+                            </tbody>
+
+                        </table>
+                    </div>
+
+                    
+
+                    <div>
+                        <table id="tablaCliente">
+                            <thead>
+                                <tr>
+                                    
+                                    <td> &nbsp; TOTAL &nbsp; </td>
+                                    <td> &nbsp; NOMBRE &nbsp; </td>
+                                    <td> &nbsp; CORREO &nbsp; </td>
+                                    <td> &nbsp; EDAD &nbsp; </td>
+                                </tr>
+                            </thead>
+                            <tbody id="registrosClientes">
+                                   
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <div id="pieDePagina">
+
+                
+                    <br>
+                    
+                    <p align="center" class="textoPie"> Edad : 18 años</p>
+                    <p align="center" class="textoPie"> Nacionalidad : Colombia</p>
+                    <p align="center" class="textoPie"> Creador : Andres Felipe Rodriguez Ramirez</p>
+                    <br>
+    
+                    <div id="link1">
+                        <a class="link" href="https://www.facebook.com/andresfelipe.rodriguezramirez.1/"><img class="footer" src="http://seu.unsl.edu.ar/application/assets/iconos/redes-sociales/logofb.png" 
+                                                  width="60" 
+                                                  height="60"
+                                                  ></a>
+                        <a class="link" href="https://instagram.com/afrr_54/"><img class="footer" src="https://fameable.com/wp-content/uploads/buy-instagram-followers.png" 
+                                                  width="60" 
+                                                  height="60"
+                                                  ></a> 
+                        <a class="link" href="https://twitter.com/Andrewv___"><img class="footer" src="https://pngimg.com/uploads/twitter/twitter_PNG15.png" 
+                                                    width="70" 
+                                                    height="60"
+                                                    ></a>                                                                                       
+                        <br>
+                    
+                
+            </div>
+
+        
+    </body>
+</html>

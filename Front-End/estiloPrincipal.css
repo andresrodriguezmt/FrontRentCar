@@ -1,0 +1,77 @@
+*{  
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body{
+
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747777_960_720.jpg");
+
+    
+}
+
+#contenedor{
+    
+    width: 1320px;
+    height: 700px;
+    
+    
+}
+
+#cabeza{
+
+    height: 10.6%;
+    background-color: black;
+    margin-top: 1ex;
+}
+
+#menu{
+
+    height: 17%;
+    
+    margin-top: 2%;
+    
+}
+
+#contenido{
+
+    height: 50%;
+    background-color: aliceblue;
+    
+    margin: 1ex; 
+}
+
+#izquierda{
+
+    height: 100%;
+    width: 40% ;
+    margin-top: 2%;
+    float: left;
+    margin-left: 0.5em;
+    
+
+}
+
+#derecha{
+    height: 100%;
+    width: 58%;
+    margin-top: 2%;
+    float:right;
+    margin-right: 0.5em;
+
+}
+
+#pieDePagina{
+
+    height: 20%;
+    background-color:black;
+    margin-top: 25em;
+
+}
+
+
+
+  
+

@@ -1,0 +1,233 @@
+#botonPost{
+    margin-left: 5%;
+    background-color:rgb(5, 128, 5); 
+    margin-left: 20%;
+    width: 60px;
+    height: 33px; 
+    color:whitesmoke;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:none;
+    
+}
+
+#botonGet{
+    
+    margin-left: 5%;
+    background-color:rgb(5, 7, 128); 
+    margin-left: 27%;
+    width: 60px;
+    height: 33px; 
+    color:whitesmoke;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:none;
+}
+
+#botonPut{
+    
+    background-color:rgb(128, 104, 0); 
+    
+    width: 60px;
+    height: 17px; 
+    color:whitesmoke;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:none;
+    
+    
+}
+
+#botonDelete{
+    
+    background-color:darkred; 
+    margin-top: 0.1ex;
+    width: 70px;
+    height: 17px; 
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:none;
+    
+    
+}
+
+#cabecera{
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: rgb(71, 0, 92);
+    
+}
+
+
+
+
+.footer{
+    position: relative;
+    background-image:black;
+    margin-left: 4px;
+}
+
+
+
+
+
+hr{
+    color:white;
+      
+    
+    
+    
+    
+    
+}
+
+#imagen{
+
+    border: 4px solid black  ;
+    margin: 4%;
+    margin-left: 11%;
+}
+
+
+
+#link1{
+    margin-left: 33%;
+
+}
+.link{
+
+    height: 0px;
+    width: 0px;
+    margin-left: 10%;
+}
+
+#messageTextScore{
+
+    margin-top: 0.4ex;
+    margin-left: 53%;
+
+}
+
+.nombresFormulario{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:black;
+    position: absolute;
+    margin-left: 5%;
+
+}
+
+#seleccionarReserva{
+
+    margin-top: 0.5ex;
+    margin-left: 50%;
+
+}
+
+#stars{
+    margin-top: 0.4ex;
+    margin-left: 36%;
+}
+
+#titulo{
+    color: rgb(33, 6, 41);
+    font-size:300%;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    margin-left: 30%;
+}
+
+#textPost{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin-left: 12%;
+    
+}
+
+#textGet{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin-left: 10%;
+    
+}
+
+#textoP{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    
+    color:black;
+    text-align: justify;
+    margin-left: 14%;    
+    margin-top: 3%;
+    margin-right: 1%;
+        
+}   
+
+.textoPie{
+
+    font-size: 20px;
+    text-shadow:brown ;
+    color: aliceblue;
+
+}
+
+table, td , th{
+
+    border: 2px solid rgba(9, 4, 70, 0.781);
+    border-collapse: collapse;
+    margin-top: 60px;
+    margin-left: 0px;
+    font-size: 13.5px;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+thead{                
+    border-collapse: collapse;
+    color: rgb(0, 0, 0);
+    margin-top: auto;
+    font-size: x-large;
+    text-align: center;
+    background-color: rgba(183, 0, 255, 0.781);
+}
+
+tbody{                
+    border-collapse: collapse;
+    margin-top: auto;
+    font-size: x-large;
+    color:black;
+    background-color: rgb(178, 200, 230);
+    text-align: center;
+}
+
+ul {
+    padding: 1%;
+    width: 100%;
+    
+  }
+  
+  li {
+    display: inline;
+    
+  }
+  
+  a {
+    
+    text-decoration: none;
+    background-color: lightslategrey;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    width: 9.7%;
+    margin-left: 1%;
+    text-align: center;
+    line-height: 2;
+    color:rgb(17, 14, 14);
+    
+    
+  }

@@ -1,0 +1,116 @@
+
+#cabecera{
+
+    text-align: center;
+    font-family: fantasy;
+    font-size: 60px;
+    color: aliceblue;
+    
+}
+
+
+.footer{
+    position: relative;
+    background-image:black;
+    margin-left: 4px;
+}
+
+hr{
+    color:white;
+      
+    
+    
+    
+    
+    
+}
+
+#imagen{
+
+    border: 4px solid black  ;
+    margin: 4%;
+    margin-left: 11%;
+}
+
+
+
+#link1{
+    margin-left: 33%;
+
+}
+
+.link{
+
+    height: 0px;
+    width: 0px;
+    margin-left: 10%;
+}
+
+#titulo{
+    color: black;
+    background-color: lightsteelblue;
+    font-size:300%;
+    
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    
+    margin-left: 15%;
+}
+
+#textoP{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    
+    color:black;
+    text-align: justify;
+    margin-left: 14%;    
+    margin-top: 3%;
+    margin-right: 1%;
+        
+}   
+
+.textoPie{
+
+    font-size: 20px;
+    text-shadow:brown ;
+    color: aliceblue;
+
+}
+
+
+
+ul {
+    padding: 1%;
+    width: 100%;
+    
+  }
+  
+  li {
+    display: inline;
+    
+  }
+  
+  a {
+    
+    text-decoration: none;
+    background-color: lightslategrey;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    width: 9.7%;
+    margin-left: 1%;
+    text-align: center;
+    line-height: 2;
+    color:rgb(0, 0, 0);
+    
+    
+  }
+  
+  
+
+
+
+
+
